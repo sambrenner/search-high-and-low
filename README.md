@@ -6,6 +6,7 @@ A workshop on finding things with computers.
 
 1. Download the zip of this repository, or `clone` it with `git`.
 2. Open Terminal and `cd` into this directory.
+3. Install `csvkit` with `sudo pip install csvkit`. If you don't have `pip`, install that with `sudo easy_install pip`.
 
 ## Regular Expressions
 
