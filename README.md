@@ -142,3 +142,4 @@ And now we can see the titles of the top movie to feature these special words. I
 
 ## Elasticsearch
 
+I'll write up notes on this later. We will be using [this repo](https://github.com/cooperhewitt/collection-elasticsearch).
