@@ -74,6 +74,7 @@ Our regex will only find two words separated by a hyphen. How can you modify it 
 
 * [Regex Quick Reference](http://www.regular-expressions.info/refquick.html)
 * [Shiffman's Regex Post](http://shiffman.net/teaching/a2z/regex/)
+* [Rubular Regex Tester](http://rubular.com/)
 
 ## csvkit
 
@@ -81,7 +82,7 @@ A CSV ("Comma Separated Values") is a type of file that represents tabular data 
 
 To install `csvkit`, use `pip`:
 
-    `sudo pip install csvkit`
+    sudo pip install csvkit
 
 We'll also need some CSVs to work with. I came across [this dataset of movie scripts](http://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html), which provides [this zip file](http://www.mpi-sws.org/~cristian/data/cornell_movie_dialogs_corpus.zip) of data. It turns out that these CSVs aren't as clean as I'd like them to be so I've provided a cleaned-up version in the `texts/cornell-movies.zip` file. If you use the original data, I've provided a `fix-cornell-movies.sh` script that you should move in to the unzipped folder and run by calling `./fix-cornell-movies.sh` from your command line. That script has plenty of comments detailing everything it does if you're interested.
 
@@ -140,3 +141,4 @@ And now we can see the titles of the top movie to feature these special words. I
 * [Relational Databases on Khan Academy](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
 
 ## Elasticsearch
+
